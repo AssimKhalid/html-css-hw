@@ -1,0 +1,43 @@
+body {
+    width: 100vmax;
+    height: 100vmax;
+    padding: 1px;
+    margin: 0%;
+    background-color: rgb(184, 184, 184);
+    font-size: larger;
+}
+
+.head-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(177, 176, 176);
+    color: white;
+    align-items: center;
+    padding: 0px 20px;
+    border-bottom: 1px solid #000;
+
+}
+
+.head-logo img {
+    width: 100px;
+
+
+}
+
+
+.head-list ul {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.head-list li {
+    margin: 0px 10px;
+}
+
+.head-page .search-bar img {
+    width: 100px;
+    padding-right: 20px;
+}
